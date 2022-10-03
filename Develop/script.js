@@ -1,6 +1,20 @@
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
+function randomInt(min, max) {
+  if (!max) {
+    max = min
+    min = 0
+  }
+  var rand = Math.random()
+  return Math.floor(min*(1 - rand) + rand*max)
+}
+
+function getRandomItem(list) {
+  return list[randomInt(list.length)]
+}
+
+
 function generatePassword () {
 
   var userInput = window.prompt("How long do you want your password to be?")
@@ -44,9 +58,19 @@ function generatePassword () {
     optionsList.push(uppercaseList)
   }
 
+  if (optionsList.length === 0) {
+    optionsList.push(uppercaseList)
+  }
 
+  var generatedPassword = ""
+  
+  for (var i = 0; i < passwordLength; i++) {
+    var randomList  = getRandomItem(optionsList)
+    var randomChar = getRandomItem(randomList)
+   generatedPassword += randomChar
+  }
 
-
+ return  generatedPassword 
 }
 
 // Write password to the #password input
