@@ -26,4 +26,4 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 ## Finished Product
-Screen Shot 2022-10-02 at 11.53.11 PM.png
+<img src="https://github.com/jxmesin/Challenge_three/blob/main/Develop/images/FinishedProduct1.png">
