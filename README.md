@@ -26,4 +26,11 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 ## Finished Product
+Here are the prompts the generator will ask the user in chronological order
 <img src="https://github.com/jxmesin/Challenge_three/blob/main/Develop/images/FinishedProduct1.png">
+<img src=https://github.com/jxmesin/Challenge_three/blob/13c09b8aed3aa9061b15a0764576ccb21817c9dd/Develop/images/FinishedProduct2.png>
+<img src=https://github.com/jxmesin/Challenge_three/blob/13c09b8aed3aa9061b15a0764576ccb21817c9dd/Develop/images/FinishedProduct3.png>
+<img src=https://github.com/jxmesin/Challenge_three/blob/13c09b8aed3aa9061b15a0764576ccb21817c9dd/Develop/images/FinishedProduct4.png>
+<img src= https://github.com/jxmesin/Challenge_three/blob/13c09b8aed3aa9061b15a0764576ccb21817c9dd/Develop/images/FinishedProduct5.png>
+<img src=https://github.com/jxmesin/Challenge_three/blob/13c09b8aed3aa9061b15a0764576ccb21817c9dd/Develop/images/FinishedProduct6.png>
+<img src=https://github.com/jxmesin/Challenge_three/blob/13c09b8aed3aa9061b15a0764576ccb21817c9dd/Develop/images/FinishedProduct7.png>
